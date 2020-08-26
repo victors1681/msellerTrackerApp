@@ -51,8 +51,8 @@ const HomeTabsNavigator = (): React.ReactElement => (
     initialRouteName={initialTabRoute}
     tabBar={(props) => <HomeBottomNavigation {...props} />}>
     <BottomTab.Screen name="Home" component={DashboardNavigator} />
-    <BottomTab.Screen name="Orders" component={DashboardNavigator} />
-    <BottomTab.Screen name="Account" component={DashboardNavigator} />
+    <BottomTab.Screen name="Orders" component={Mockup} />
+    <BottomTab.Screen name="Account" component={Mockup} />
   </BottomTab.Navigator>
 );
 

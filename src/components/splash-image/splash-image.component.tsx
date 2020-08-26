@@ -1,5 +1,5 @@
 import React from 'react';
-import {ImageProps, NativeModules, Text} from 'react-native';
+import {ImageProps, NativeModules} from 'react-native';
 
 export interface LoadingAnimationProps extends ImageProps {
   loading: boolean;
@@ -15,5 +15,5 @@ export const SplashImage = (
     });
   }
 
-  return <Text>hey </Text>;
+  return null;
 };
